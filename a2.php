@@ -20,6 +20,10 @@ $data = json_decode($response , true);
     <body>
 <!-- Pico CSS Overflow Auto -->
 <div class="overflow-auto">
+    <!-- Pico CSS Table striped  -->
+<table class="striped">
+
+</table>
 </div>
     </body>
 </html>
