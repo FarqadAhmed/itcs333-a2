@@ -39,11 +39,33 @@ $data = json_decode($response , true);
 <?php $results=$data["results"];
 ?>
 
-<!-- Check if  decoding was Successful OR Not(Error) -->
+<!-- Check if record empty OR Not -->
 <?php if(!$data || !isset($data["results"])){
     die('error fetching the data from API');
 }
 ?>
+<? php
+else
+?>
+<!-- Loop to display data for each student  -->
+<?php
+foreach($result as $student)
+{
+    ?>
+    <tr>
+    <td><?php echo $student["year"];?></td>
+    <td><?php echo $student["semester"];?></td>
+    <td><?php echo $student["the_programs"];?></td>
+    <td><?php echo $student["nationality"];?></td>
+    <td><?php echo $student["colleges"];?></td>
+    <td><?php echo $student["number_of_students"];?></td>
+    </tr>
+
+    <?php
+
+}
+         ?>   
+
 </tbody>
 </table>
 </div>
