@@ -39,6 +39,11 @@ $data = json_decode($response , true);
 <?php $results=$data["results"];
 ?>
 
+<!-- Check if  decoding was Successful OR Not(Error) -->
+<?php if(!$data || !isset($data["results"])){
+    die('error fetching the data from API');
+}
+?>
 </tbody>
 </table>
 </div>
