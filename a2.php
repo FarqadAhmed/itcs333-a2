@@ -22,7 +22,17 @@ $data = json_decode($response , true);
 <div class="overflow-auto">
     <!-- Pico CSS Table striped  -->
 <table class="striped">
-
+    <!-- Table headers for UOB Student Data -->
+<thead>
+<tr>
+<th>Year</th>
+<th>Semester</th>
+<th>The programs</th>
+<th>Natiotnality</th>
+<th>Colleges</th>
+<th>Number Of Students</th>
+ </tr>
+</thead>
 </table>
 </div>
     </body>
