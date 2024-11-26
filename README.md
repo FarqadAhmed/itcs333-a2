@@ -13,7 +13,9 @@ $data = json_decode($response , true);
 ?>
 
 <html>
-    <Style>
+    
+    <head>
+<Style>
       /* Main heading (h1) style */
    h1 {
      text-align: center;
@@ -33,8 +35,6 @@ color :black;
             text-align: left;
         }
     </Style>
-    <head>
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
  <!-- pico CSS  minimal styles  -->
 <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">

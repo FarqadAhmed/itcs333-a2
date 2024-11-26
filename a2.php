@@ -13,10 +13,9 @@ $data = json_decode($response , true);
 <html>
     <Style>
       /* Main heading (h1) style */
-   h1 {
+     h1 {
      text-align: center;
     margin-bottom: 15px;
-color :black;
         }
      /* table style  */
      table {
@@ -30,6 +29,7 @@ color :black;
             padding: 10px;
             text-align: left;
         }
+        
     </Style>
     <head>
 
@@ -43,18 +43,18 @@ color :black;
 <!-- Pico CSS Overflow Auto -->
 <div class="overflow-auto">
     <!-- Pico CSS Table striped  -->
-<table class="striped">
+            <table class="striped">
     <!-- Table headers for UOB Student Data -->
-<thead>
-<tr>
-<th>Year</th>
-<th>Semester</th>
-<th>The programs</th>
-<th>Natiotnality</th>
-<th>Colleges</th>
-<th>Number Of Students</th>
- </tr>
-</thead>
+  <thead>
+    <tr>
+        <th>Year</th>
+        <th>Semester</th>
+        <th>The programs</th>
+        <th>Natiotnality</th>
+        <th>Colleges</th>
+        <th>Number Of Students</th>
+    </tr>
+  </thead>
     <!-- Table Body for UOB Student Data -->
 <tbody>
 <!-- extract results -->
