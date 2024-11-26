@@ -18,7 +18,12 @@ $data = json_decode($response , true);
     margin-bottom: 15px;
 color :black;
         }
-     
+     /* table style  */
+     table {
+            width: 70%;
+            margin: 0 auto;
+          
+        }
     </Style>
     <head>
 
