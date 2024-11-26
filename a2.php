@@ -33,6 +33,13 @@ $data = json_decode($response , true);
 <th>Number Of Students</th>
  </tr>
 </thead>
+    <!-- Table Body for UOB Student Data -->
+<tbody>
+<!-- extract results -->
+<?php $results=$data["results"];
+?>
+
+</tbody>
 </table>
 </div>
     </body>
