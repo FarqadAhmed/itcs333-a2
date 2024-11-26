@@ -11,6 +11,7 @@ $data = json_decode($response , true);
 ?>
 
 <html>
+<head>
     <Style>
       /* Main heading (h1) style */
      h1 {
@@ -31,7 +32,7 @@ $data = json_decode($response , true);
         }
         
     </Style>
-    <head>
+  
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
  <!-- pico CSS  minimal styles  -->
