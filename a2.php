@@ -9,3 +9,13 @@ $response= file_get_contents($url);
 $data = json_decode($response , true);
 
 ?>
+
+<html>
+    <head>
+    <title>University of Bahrain Students Enrollment Data by Nationality</title>
+    </head>
+    <body>
+
+    </body>
+</html>
+
