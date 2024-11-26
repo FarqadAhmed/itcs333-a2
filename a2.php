@@ -24,6 +24,12 @@ color :black;
             margin: 0 auto;
           
         }
+        /* td and th style inside table */
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
     </Style>
     <head>
 
