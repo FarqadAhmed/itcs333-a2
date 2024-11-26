@@ -11,13 +11,24 @@ $data = json_decode($response , true);
 ?>
 
 <html>
+    <Style>
+      /* Main heading (h1) style */
+   h1 {
+     text-align: center;
+    margin-bottom: 15px;
+color :black;
+        }
+     
+    </Style>
     <head>
-    <title>University of Bahrain Students Enrollment Data by Nationality</title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
  <!-- pico CSS  minimal styles  -->
 <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
 </head>
     <body>
+        <main>
+            <h1 >University of Bahrain Students Enrollment Data by Nationality</h1>
 <!-- Pico CSS Overflow Auto -->
 <div class="overflow-auto">
     <!-- Pico CSS Table striped  -->
@@ -49,7 +60,7 @@ else
 ?>
 <!-- Loop to display data for each student  -->
 <?php
-foreach($result as $student)
+foreach($results as $student)
 {
     ?>
     <tr>
@@ -70,5 +81,6 @@ foreach($result as $student)
 </table>
 </div>
     </body>
+    </main>
 </html>
 
